@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/wpi-huron/base-images/compare/v0.1.3...v0.1.4) (2024-01-17)
+
+
+### Features
+
+* Remove buildplatform ([422eb25](https://github.com/wpi-huron/base-images/commit/422eb250704675ad744ac459a86a3a5e15fcee9e))
+
 ## [0.1.3](https://github.com/wpi-huron/base-images/compare/v0.1.2...v0.1.3) (2024-01-17)
 
 
