@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/wpi-huron/base-images/compare/v0.1.2...v0.1.3) (2024-01-17)
+
+
+### Features
+
+* fix libsockcanpp ([54e59fb](https://github.com/wpi-huron/base-images/commit/54e59fbb9f81bdae767f94e04d676cbee92fb84f))
+
 ## [0.1.2](https://github.com/wpi-huron/base-images/compare/v0.1.1...v0.1.2) (2024-01-17)
 
 
