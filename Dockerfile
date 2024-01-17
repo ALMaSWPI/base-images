@@ -5,9 +5,6 @@ ARG TARGETPLATFORM
 
 FROM ros:humble-ros-core
 
-RUN --mount=type=secret,id=github_token \
-  cat /run/secrets/github_token
-
 RUN apt update
 RUN apt install -y ros-humble-pinocchio
 # COPY --from=build /out/mybinary /bin
