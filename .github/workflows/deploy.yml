@@ -2,10 +2,8 @@ name: Deploy
 
 on:
   push:
-    branches:
-      - "main"
     tags:
-      - "v*.*.*"
+      - "v*"
 
 jobs:
   build_base_image:
