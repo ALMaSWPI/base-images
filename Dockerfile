@@ -1,4 +1,9 @@
-FROM --platform=$BUILDPLATFORM ros:humble-ros-core AS build
+FROM --platform=$BUILDPLATFORM ros:humble-ros-core
+
+RUN apt update
+RUN apt install -y git build-essential cmake gcc-aarch64-linux-gnu g++-aarch64-linux-gnu ros-humble-pinocchio
+
+RUN cmake --version
 
 ARG TARGETPLATFORM
 
@@ -10,12 +15,6 @@ RUN case ${TARGETPLATFORM} in \
          "linux/arm64")  TOOLCHAIN_PREFIX=arm64  ;; \
          "linux/arm/v7") TOOLCHAIN_PREFIX=armhf  ;; \
          "linux/arm/v6") TOOLCHAIN_PREFIX=armel  ;; \
-         "linux/386")    TOOLCHAIN_PREFIX=i386   ;; \
-    esac
-RUN /opt/scripts/src_build_deps.sh "${TOOLCHAIN_PREFIX}"
-
-FROM ros:humble-ros-core
-
-RUN apt update
-RUN apt install -y git ros-humble-pinocchio
+    esac \
+    && /bin/bash /opt/scripts/src_build_deps.sh ${TOOLCHAIN_PREFIX}
 
