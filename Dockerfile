@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM ros:humble-ros-core
+FROM ros:humble-ros-core
 
 RUN apt update
 RUN apt install -y git build-essential cmake gcc-aarch64-linux-gnu g++-aarch64-linux-gnu ros-humble-pinocchio
