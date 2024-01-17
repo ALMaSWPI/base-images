@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/wpi-huron/base-images/compare/v0.1.1...v0.1.2) (2024-01-17)
+
+
+### Features
+
+* install libsockcanpp ([1495e53](https://github.com/wpi-huron/base-images/commit/1495e53e89ae9c8cefbacc8abb9011899dd259bd))
+
 ## 0.1.1 (2024-01-17)
 
 
