@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.5](https://github.com/wpi-huron/base-images/compare/v0.1.4...v0.1.5) (2024-01-18)
+
+
+### Features
+
+* Add serial dep ([e8d3da8](https://github.com/wpi-huron/base-images/commit/e8d3da8d7d1ce789f93e0c6dab8822a53b2e2e28))
+
 ## [0.1.4](https://github.com/wpi-huron/base-images/compare/v0.1.3...v0.1.4) (2024-01-17)
 
 
