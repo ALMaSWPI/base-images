@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/ALMaSWPI/base-images/compare/v0.1.6...v0.1.7) (2024-04-29)
+
+
+### Features
+
+* Update libsockcanpp and serial dependencies ([2403ff8](https://github.com/ALMaSWPI/base-images/commit/2403ff87a76b96074c7856aee4a01902fc2d3ea2))
+
 ## [0.1.6](https://github.com/ALMaSWPI/base-images/compare/v0.1.5...v0.1.6) (2024-04-29)
 
 
