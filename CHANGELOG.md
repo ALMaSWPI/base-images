@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/ALMaSWPI/base-images/compare/v0.1.5...v0.1.6) (2024-04-29)
+
+
+### Features
+
+* change Docker Hub account ([ec24322](https://github.com/ALMaSWPI/base-images/commit/ec24322719f1fded72b6915efc57041f90aeee1c))
+
 ## [0.1.5](https://github.com/wpi-huron/base-images/compare/v0.1.4...v0.1.5) (2024-01-18)
 
 
